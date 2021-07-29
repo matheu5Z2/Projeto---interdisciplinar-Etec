@@ -10,6 +10,7 @@ Manipulação html e css feita por mim. Conteúdo e imagens disponibilizados e/o
 
 Programação em javascript e PHP, com auxilio de videos aulas pelo youtube e material de estudo do ensino superior de ADS.
 
+Este site foi um ótimo projeto para colocar meus primeiros conhecimentos de html e css em prática. Assim como também aprimorar minhas skills na manipulação e primeira prática de lógica de programção em javascript e PHP.
 
 Algumas imagens do projeto construído:
 
