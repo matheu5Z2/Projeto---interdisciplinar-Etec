@@ -1,0 +1,875 @@
+*{
+    margin: 0;
+}
+ul {
+    padding: 0px!important;
+}
+body {
+    background-color: #fffbe5;
+}
+main {
+    margin: 0 auto;
+    width: 100vw;
+    position: relative;
+}
+.menu-inicio {
+    width: 100%;
+    background-color:white;
+    height: 60px;
+}
+.logo {
+    height: 40px;
+    float: left;
+    margin: 10px;
+}
+.logo img {
+    width: 70px;
+    animation: neon 0.5s alternate infinite ease-in-out;
+    --cor-neon: red
+}
+.redes-sociais ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    margin-top: 20px;
+}
+.redes-sociais ul li img {
+    height: 20px;
+    animation: neon 0.5s alternate infinite ease-in-out;
+    --cor-neon: red
+}
+.redes-sociais {
+    float: right;
+}
+.logo-principal {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.logo-principal img {
+    width: 120px;
+}
+.logo-secundaria {
+    position: absolute;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.logo-secundaria img {
+    width: 75px;
+    animation: neon 0.5s alternate infinite ease-in-out;
+    --cor-neon: black
+}
+.chamativo {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 35vw;
+}
+@keyframes  neon {
+    from {
+        filter: drop-shadow(0 0 0 var(--cor-neon));
+    }
+    to {
+        filter: drop-shadow(0 0 5px var(--cor-neon));
+    }
+}
+.col-100 {
+    background-color: #252525;
+}
+.menu {
+    height: 68px;
+    width: 100%;
+}
+.menu-principal {
+    width: 90%;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 25px;
+    margin-left: 20vw;
+}
+.home ul li {
+    display: inline-block;
+    color: white;
+    height: 40px;
+    margin-left: 30px;
+}
+.home ul li:hover {
+    border-bottom: 3px solid rgba(0, 140, 255, 0.863);
+}
+.home ul li a:hover {
+    color: rgba(0, 140, 255, 0.863);
+}
+.home ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.home {
+    width: 100%;
+    float: left;
+}
+.primeiro-conteudo {
+    margin-top: 80px;
+}
+.primeiro-conteudo h1 {
+    color: rgba(32, 31, 31, 0.932);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.segundo-conteudo {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.segundo-conteudo h1 {
+    text-align: center;
+    color: rgba(32, 31, 31, 0.932);
+    text-transform: uppercase;
+    font-size: 28px;
+}
+p {
+    text-align: justify;
+    padding: 20px;
+    color: rgba(32, 31, 31, 0.932);
+    font-size: 24px;
+}
+.foto {
+    width: 100%;
+    height: 100vh;
+    float: left;
+    position: relative;
+    background-color: black;
+}
+.banner-1 {
+    width: 100%;
+    height: 100%;
+}
+.banner-1 img {
+    width: 100%;
+    height: 100%;
+}
+.menu-home {
+    border-bottom: 5px solid;
+    height: 100vh;
+}
+.vest {
+    margin: 20px;
+    background: #252525;
+    width: 191px;
+    height: 269px;
+    float: left;
+}
+.vest img {
+    height: 265px;
+    margin: -2px;
+}
+.vest img:hover {
+    border-top: solid 3px #252323;
+    border-left: solid 3px #252525 ;
+}
+.vest-esq {
+    margin: 20px;
+    background: #252525;
+    width: 193px;
+    height: 269px;
+    float: right;
+}
+.vest-esq img {
+    height: 265px;
+    margin: -2px;
+    float: right;
+}
+.vest-esq img:hover {
+    float: right;
+    border-top: solid 3px #252323;
+    border-right: solid 3px #252525 ;
+}
+.banner-p img {
+    width: 100%;
+    height: 85vh;
+}
+.borda-pg {
+    border-bottom: 5px solid;
+    margin-top: -6px;
+}
+.menu-produto {
+    width: 1080px;
+    position: relative;
+}
+.titulo {
+    margin-top: 9vh;
+    margin-bottom: 6vh;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.produto {
+    width: 100%;
+    margin-bottom: 10vh;
+}
+.produto ul li {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.produto ul li p {
+    text-align: left;
+    padding: 2px;
+    margin: 0;
+    margin-left: 52px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: black;
+}
+.produto ul li h1 {
+    font-size: 26px;
+    margin-left: 50px;
+    text-align: center;
+}
+.produto img {
+    width: 16vw;
+    border: 2px solid #252323;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.menu-conteudo {
+    max-width: 800px;
+    position: relative;
+}
+.menu-conteudo-pri {
+    max-width: 600px;
+    position: relative;
+}
+.conteudo-origem {
+    margin-bottom: 10vh;
+}
+.conteudo-origem p {
+    font-size: 24px;
+}
+.conteudo-sobre {
+    width: 90%;
+    margin-top: 80px;
+    margin-bottom: 10vh;
+}
+.conteudo-sobre h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(32, 31, 31, 0.932);
+    margin-top: 50px;
+}
+.logo-curso {
+    margin: 10vw;
+}
+.logo-curso ul li {
+    display: inline-block;
+    width: 25vw;
+}
+.logo-curso img {
+    width: 20vw;
+    margin: 20px;
+}
+.text-curso {
+    margin-left: 13vw;
+    margin-bottom: 10vh;
+}
+.text-curso li {
+    list-style: none;
+    margin-top: 2vh;
+}
+.text-curso li a {
+    color: black;
+    text-decoration: none;
+}
+.conteudo-cursoADM {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+.conteudo-cursoADM p {
+    font-size: 24px;
+    margin-bottom: 10vh;
+    margin-top: 13vh;
+    text-align: justify;
+}
+.conteudo-cursoADM img {
+    float: left;
+    margin-right: 1vw;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+.conteudo-cursoADM h1 {
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-transform: uppercase;
+}
+.conteudo-saibamais h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.conteudo-saibamais {
+    margin-bottom: 100px;
+}
+.fundo {
+    background-image: url(/Img/Fundo-saibamais.png);
+    background-repeat: no-repeat;
+}
+.fundo img {
+    width: 100%;
+    height: 89%;
+    position: absolute;
+}
+.fonte {
+    margin-bottom: 5vh;
+}
+.fonte a {
+    color: black;
+}
+.fonte p {
+    font-size: 16px;
+    margin-top: -25px;
+}
+.container {
+    width: 200px;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    margin-left: 20vw;
+}
+.container h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 10vh;
+}
+.selected {
+    background-color: #252525;
+    color: white;
+}
+select {
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px 10px;
+    background-color: #252323;
+    color: white;
+    padding: 10px;
+}
+
+/* Button */
+
+.button {
+    background: rgb(21, 235, 21);
+    border-radius: 6px;
+    padding: 8px 16px;
+    margin-top: 2vh;
+    margin-left: 3.5vw;
+    border: 0;
+    cursor: pointer;
+    color: white;
+}
+.Pro-Si {
+    width: 100%;
+    background-color: #464444;
+    height: 33.69vw;
+}
+.Pro-Si img {
+    width: 75%;
+    margin-left: 13vw;
+}
+.Pro-Text {
+    width: 50vw;
+    margin: 0 auto;
+}
+.Pro-Text h1 {
+    text-align: center;
+    font-size: 54px;
+    margin-top: 2vh;
+}
+.Pro-Text ul li {
+    display: inline;
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    margin-top: 8vh;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10vh;
+    color: red;
+}
+.Pro-Text ul li p {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+.menu-rodape {
+    width: 100%;
+    height: 200px;
+}
+.rodape {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: auto auto;
+    height: auto;
+}
+.creditos {
+    padding-top: 4vh;
+    margin-left: 25vw;
+}
+.creditos ul li {
+    color: white;
+    list-style: none;
+    display: inline;
+    text-align: center;
+    float: left;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+.creditos p {
+    color: white;
+    font-size: 12.8px;
+    margin-bottom: -4vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (min-width: 2048px) {
+    html {
+        font-size: 150%;
+    }
+    .logo-principal {
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .logo-principal img {
+        width: 150px;
+    }
+    .menu {
+        height: 88px;
+        width: 100%;
+    }
+    .menu-principal {
+        width: 90%;
+        max-width: 1080px;
+        margin: 0 auto;
+        padding: 45px;
+        margin-left: 30vw;
+    }
+    .home ul li {
+        display: inline-block;
+        color: white;
+        height: 40px;
+        margin-left: 30px;
+    }
+    .home ul li:hover {
+        border-bottom: 3px solid rgba(0, 140, 255, 0.863);
+    }
+    .home ul li a:hover {
+        color: rgba(0, 140, 255, 0.863);
+    }
+    .home ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+    .home {
+        width: 100%;
+        float: left;
+    }
+    .logo {
+        height: 40px;
+        float: left;
+        margin: 10px;
+    }
+    .logo img {
+        width: 3vw;
+    }
+    .borda-pg {
+        border-bottom: 5px solid;
+        margin-top: -4px;
+    }
+    .menu-produto {
+        width: 55vw;
+        position: relative;
+    }
+    .titulo {
+        margin-top: 8vh;
+        margin-bottom: 3vh;
+        text-align: center;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    .produto {
+        width: 100%;
+    }
+    .produto ul li {
+        display: inline-block;
+        margin-bottom: 60px;
+        margin-left: 0.6vw;
+    }
+    .produto img {
+        border: 2px solid #252323;
+        width: 18vh;
+    }
+    .menu-conteudo-pri {
+        max-width: 800px;
+        position: relative;
+    }
+    .primeiro-conteudo {
+        margin-top: 80px;
+    }
+    .primeiro-conteudo h1 {
+        color: rgba(32, 31, 31, 0.932);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 44px;
+        margin-bottom: 30px;
+    }
+    p {
+        text-align: justify;
+        padding: 20px;
+        color: rgba(32, 31, 31, 0.932);
+        font-size: 32px;
+    }
+    .conteudo-cursoADM p {
+        font-size: 16px;
+    }
+    .fundo {
+        background-image: url(/Img/Fundo-saibamais.png);
+        background-repeat: no-repeat;
+    }
+    .fundo img {
+        width: 100%;
+        height: 64.5%;
+        position: absolute;
+    }
+    .fonte {
+        margin-bottom: 5vh;
+    }
+    .fonte p {
+        font-size: 24px;
+        margin-top: -25px;
+    }
+    .conteudo-saibamais h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .conteudo-saibamais p {
+       font-size: 28px;
+    }
+    
+
+
+
+
+
+
+
+    .menu-rodape {
+        width: 100%;
+        height: 250px;
+    }
+    .rodape {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin: auto auto;
+        height: auto;
+    }
+    .creditos {
+        padding-top: 2vh;
+        margin-left: 31vw;
+    }
+    .creditos ul li {
+        color: white;
+        list-style: none;
+        display: inline;
+        text-align: center;
+        float: left;
+        margin-left: 2vw;
+        margin-top: 2vh;
+        font-size: 30px;
+    }
+    .creditos p {
+        color: white;
+        font-size: 24px;
+        margin-bottom: -2vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media (max-width: 1366px) {
+    html {
+        font-size: 80%;
+    }
+    main {
+        margin: 0 auto;
+        width: 100vw;
+        position: relative;
+    }
+    ul {
+        padding: 0px!important;
+    }
+    .foto {
+        width: 100%;
+        height: 80vh;
+        float: left;
+        position: relative;
+        background-color: black;
+    }
+    .banner-1 {
+        width: 100%;
+        height: 100%;
+    }
+    .banner-1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .logo {
+        margin-top: 10px;
+        margin-left: 10px;
+        float: left;
+    }
+    .logo-principal {
+        position: absolute;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+    .logo-principal img {
+        width: 120px;
+    }
+    .redes-sociais ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 10px;
+        margin-top: 20px;
+    }
+    .redes-sociais ul li img {
+        height: 20px;
+    }
+    .redes-sociais {
+        float: right;
+    }
+    .menu-home {
+        border-bottom: 5px solid;
+        height: 80vh;
+    }
+    .col-100 {
+        background-color: #252323;
+    }
+    .menu-principal {
+        width: 80%;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 25px;
+    }
+    .menu {
+        height: 68px;
+        width: 100%;
+    }
+    .home ul li {
+        display: inline-block;
+        color: white;
+        height: 40px;
+        margin-left: 30px;
+    }
+    .home ul li:hover {
+        border-bottom: 3px solid rgba(0, 140, 255, 0.863);
+    }
+    .home ul li a:hover {
+        color: rgba(0, 140, 255, 0.863);
+    }
+    .home ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    .home {
+        width: 100%;
+        float: left;
+    }
+    .primeiro-conteudo {
+        margin-top: 80px;
+        width: 90%;
+    }
+    .primeiro-conteudo h1 {
+        color: rgba(32, 31, 31, 0.932);
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .segundo-conteudo {
+        margin-top: 80px;
+        width: 90%;
+    }
+    .segundo-conteudo h1 {
+        text-align: center;
+        color: rgba(32, 31, 31, 0.932);
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+    p {
+        text-align: justify;
+        padding: 20px;
+        color: rgba(32, 31, 31, 0.932);
+        font-size: 20px;
+    }
+    .banner-p img {
+        width: 100%;
+        height: 85vh;
+    }
+    .borda-pg {
+        border-bottom: 5px solid;
+        margin-top: -4px;
+    }
+    .menu-produto {
+        width: 800px;
+        position: relative;
+    }
+    .titulo {
+        margin-top: 7vh;
+        margin-bottom: 2vh;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+    .produto {
+        width: 100%;
+    }
+    .produto ul li {
+        display: inline-block;
+    }
+    .produto ul li p {
+        text-align: left;
+        padding: 2px;
+        margin: 0;
+        margin-left: 50px;
+        margin-top: 8px;
+        font-size: 16px;
+        color: black;
+    }
+    .produto ul li h1 {
+        font-size: 24px;
+        margin-left: 52px;
+        text-align: center;
+    }
+    .produto img {
+        border: 2px solid #252323;
+    }
+    .menu-conteudo {
+        max-width: 680px;
+    }
+    .conteudo-origem p {
+        margin-right: 3vw;
+    }
+    .conteudo-sobre {
+        width: 90%;
+        margin-top: 80px;
+    }
+    .conteudo-sobre h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: rgba(32, 31, 31, 0.932);
+        margin-top: 50px;
+    }
+    .conteudo-saibamais h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .conteudo-saibamais {
+        margin-bottom: 100px;
+    }
+    .conteudo-saibamais p {
+        color: black;
+    }
+    .fundo {
+        background-image: url(/Img/Fundo-saibamais.png);
+        background-repeat: no-repeat;
+    }
+    .fundo img {
+        width: 100%;
+        height: 133%;
+        position: absolute;
+    }
+    .fonte {
+        margin-bottom: 5vh;
+    }
+    .fonte p {
+        font-size: 14px;
+        margin-top: -25px;
+    }
+    
+    
+    
+
+    
+    
+    .menu-rodape {
+        width: 100%;
+        height: 170px;
+    }
+    .rodape {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        margin: auto auto;
+        height: auto;
+    }
+    .creditos {
+        padding-top: 4vh;
+        margin-left: 15vw;
+    }
+    .creditos ul li {
+        color: white;
+        list-style: none;
+        display: inline;
+        text-align: center;
+        float: left;
+        margin-left: 5vw;
+        margin-top: 2vh;
+        font-size: 16px;
+    }
+    .creditos p {
+        color: white;
+        font-size: 12.8px;
+        margin-bottom: -6vh;
+    }
+    
+}
